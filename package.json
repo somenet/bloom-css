@@ -1,15 +1,20 @@
 {
   "name": "bloom-css",
-  "private": true,
   "version": "0.0.0",
-  "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "tsc && vite build",
-    "preview": "vite preview"
+  "description": "Minimal beauty, bloom now.",
+  "repository": {
+    "type": "git",
+    "url": "git@github-somenet:somenet/bloom-css.git"
   },
-  "devDependencies": {
-    "typescript": "~5.9.3",
-    "vite": "^7.1.7"
-  }
+  "files": [
+    "*.css",
+    "*.svg",
+    "**/*.css",
+    "**/*.svg"
+  ],
+  "keywords": [
+    "CSS"
+  ],
+  "author": "SOMENET",
+  "license": "MIT"
 }
