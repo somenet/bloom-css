@@ -98,7 +98,8 @@
 }
 
 :where([type="search"]) {
-    -webkit-appearance: textfield
+    -webkit-appearance: textfield;
+    appearance: textfield;
 }
 
 @supports (-webkit-touch-callout:none) {
