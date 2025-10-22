@@ -1,20 +1,38 @@
 {
   "name": "@somenet/bloom-css",
-  "version": "0.0.1",
-  "description": "Minimal beauty, bloom now.",
+  "version": "0.0.0",
+  "description": "A lightweight, flexible, and pure CSS framework designed for modern web interfaces.",
+  "author": "SOMENET",
+  "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git@github-somenet:somenet/bloom-css.git"
+    "url": "https://github.com/somenet/bloom-css"
   },
+  "bugs": {
+    "url": "https://github.com/somenet/bloom-css/issues"
+  },
+  "homepage": "https://github.com/somenet/bloom-css#readme",
+  "main": "dist/bloom-css.js",
+  "style": "dist/bloom-css.css",
   "files": [
-    "*.css",
-    "*.svg",
-    "**/*.css",
-    "**/*.svg"
+    "dist"
   ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "clean": "rimraf dist"
+  },
   "keywords": [
-    "CSS"
+    "css",
+    "framework",
+    "bloom",
+    "ui",
+    "design",
+    "responsive",
+    "flexbox"
   ],
-  "author": "SOMENET",
-  "license": "MIT"
+  "devDependencies": {
+    "vite": "^5.0.0"
+  }
 }
